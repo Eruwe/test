@@ -1,0 +1,687 @@
+/*глобальное*/
+* {
+	display: block;
+	margin: 0 auto;
+}
+
+.hidden-title {
+	display: none;
+}
+
+.container {
+	max-width: 1440px;
+}
+
+.header__top-inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	padding: 26px 52px;
+}
+
+.menu__list {
+	display: flex;
+	align-items: flex-end;
+	list-style: none;
+}
+
+.menu__link {
+	color: #373A39;
+	font-family: Raleway;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.6px;
+}
+
+.menu {
+	padding: 40px 0px;
+}
+
+.menu__list-item {
+	padding: 0px 50px;
+}
+/* второй блок с лесом на фоне*/
+
+.header__content-inner {
+	background-image: url(../img/Header-bg.png);
+	font-family: Monsterrat, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 300px 0 0 0;
+}
+
+.header__title {
+	font-size: 100px;
+	line-height: 122px;
+	color: #FFFFFF;
+}
+
+.header__description {
+	font-size: 16px;
+	color: #FCBB08;
+	letter-spacing: 2.74286px;
+}
+
+.header__mouse-img {
+	padding: 170px 0 62px 0;
+}
+
+.title {
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 75px;
+	letter-spacing: -1.65px;
+	color: #242121;
+
+	margin-left: 136px;
+}
+
+.title__underline {
+	float: left;
+	margin-left: 136px;
+
+}
+
+/*ABOUT US*/
+
+.about__main-flex {
+	display: flex;
+}
+.about__title-box {
+	display: block;
+	width: 100%;
+	padding: 143px 0 255px 0px;
+}
+
+.about__text {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	color: #373A39;
+	padding: 152px 135px 159px 100px;
+
+}
+
+/* OUR EXPERTISE*/
+
+.expertise__container {
+	padding: 143px 0 164px 0;
+}
+
+.expertise__title-box {
+	display: block;
+	padding: 0 0 89px 0;
+}
+
+.expertise__content {
+	display: flex;
+	margin-left: 136px;
+	padding-right: 135px;
+}
+
+.expertise__text {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	color: #373A39;
+}
+
+.expertise__content-item1::before {
+	content: url(../img/branding-line.png);
+}
+
+.expertise__content-item2::before {
+	content: url(../img/design-line.png);
+}
+
+.expertise__content-item3::before {
+	content: url(../img/dev-line.png);
+}
+
+.expertise__content-items {
+	font-family: Open Sans;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #1D1D1D;
+	text-transform: uppercase;
+}
+
+.expertise__content-underline {
+	display: flex;
+	float: left;
+}
+
+.expertise__under-num1 {
+	margin-left: 262px;
+}
+
+.expertise__under-num2 {
+	margin-left: 244px;
+}
+
+.expertise__under-num3 {
+	margin-left: 218px;
+}
+
+/*колонки с картинками в Expertise*/
+
+.expertise__columns {
+	display: flex;
+	justify-content: space-between;
+	padding: 110px 135px 164px 110px;
+}
+
+.expertise__column {
+	display: flex;
+	margin: 0 27px;
+}
+
+.expertise__column-box{
+	margin: 0 35px;
+}
+
+.expertise__column-title {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 4.29px;
+	color: #333333;
+}
+
+.expertise__column-text {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	color: #777777;
+
+	margin-top: 14px;
+}
+
+/* LET'S MAKE MAGIC*/
+
+.magicbox__mainflex {
+	display: flex;
+}
+
+.magicbox__title {
+	margin-left: 0px;
+}
+
+.magicbox__content {
+	padding: 101px 135px 180px 130px;
+}
+
+.magicbox__title-underline {
+	margin-left: 0px;
+}
+
+.magicbox__text {
+	margin-top: 85px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	color: #373A39;
+}
+
+/*PORTFOLIO SECTION*/
+
+.portfolio__container {
+	padding-top: 140px;
+}
+
+
+.portfolio__items {
+	display: flex;
+	padding-top: 140px;
+}
+
+.portfolio__head {
+	display: flex;
+	margin-left: -160px;
+}
+
+.portfolio__btn {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 24px;
+	display: flex;
+
+	text-transform: uppercase;
+	letter-spacing: 2.3px;
+	color: #333333;	
+
+	border: 0px;
+	background-color: white;
+	height: 24px;
+	margin: 30px 15px;
+}
+
+.portfolio__buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 110px;
+}
+
+.portfolio__item-title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 1.4px;
+
+	color: #FFFFFF;
+}
+
+.portfolio-item-descr{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 1px;
+
+	color: #FFFFFF;
+}
+
+.portfolio__item-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #EDEDED;
+	width: 343px;
+	height: 343px;
+	margin-bottom: 23px;
+}
+
+.portfolio__item-img1 {
+	height: 494px;
+}
+
+.portfolio__item-img2 {
+	height: 395px;
+}
+
+
+.portfolio__item-img3 {
+	height: 288px;
+	background-image: url(../img/2.jpg);
+}
+
+.portfolio__item-img4 {
+	height: 288px;
+}
+
+.portfolio__item-img5 {
+	height: 292px;
+}
+
+.portfolio__item-img6 {
+	height: 367px;
+}
+
+.portfolio__item-img7 {
+	height: 523px;
+}
+
+.portfolio__item-img8 {
+	height: 318px;
+}
+
+.portfolio__item-img9 {
+	height: 572px;
+}
+
+.portfolio__btn-all {
+	width: 100%;
+	height: 100px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: 1.2px;
+
+	color: #242121;
+
+	padding: 0 42px;
+	border: 0px;
+	background: #F6F8FA;
+}
+/* ЦИТАТА ПЕРЕД ВИДЕО*/
+
+.video__quotes {
+	margin-top: 130px;
+	max-width: 652px;
+
+	font-family: Merriweather;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+
+	color: #242121;
+}
+
+.video__quotes-auth {
+	margin: 51px 0 148px 0;
+	text-align: center;
+
+	font-family: Merriweather;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 32px;
+	color: #9E9E9E;
+}
+
+/* ЦИФРЫ ПОД ВИДЕО */
+
+.stats__items {
+	padding: 164px 0 166px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.stats__item-num {
+	font-family: Montserrat;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 73px;
+
+	color: #242121;
+}
+
+.stats__item-text {
+	font-family: Open Sans;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+
+	color: #00B2A0;
+}
+/* TEAM*/
+
+.team__title-box {
+	display: block;
+}
+
+.team__items {
+	display: flex;
+	margin: 102px 0 160px 135px;
+	justify-content: space-between;
+
+}
+
+.team__item {
+	margin: 0 20px 0 0;
+}
+
+.team__item-name {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	color: #333333;
+
+	margin-top: 35px;
+}
+
+.team__item-descr {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: center;
+	color: #C2C2C2;
+
+	margin-top: 12px;
+}
+
+/*PRICING */
+
+.prices__container {
+	padding: 144px 0 50px 0;
+	background: #F6F8FA;
+}
+
+.prices__items {
+	margin: 91px 0 162px 0;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.prices__item {
+	display: block;
+	background: white;
+	width: 370px;
+	color: #242121;
+
+	padding: 24px 0 53px 25px;
+	margin-left: 135px;
+}
+
+.prices__item2 {
+	margin-left: 30px;
+}
+
+.prices__item3 {
+	margin-left: 30px;
+}
+
+.prices__item-name {
+	text-align: left;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #242121;
+}
+
+.prices__item-rate {
+	display: flex;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 80px;
+	line-height: 109px;
+}
+
+.sup {
+	font-size: 40px;
+	margin-left: 105px;
+}
+
+.sub {
+	font-size: 20px;
+	margin-right: 102px;
+}
+
+.prices__list-item {
+	font-family: Open Sans;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 30px;
+}
+
+/*список */
+
+.prices__list {
+	margin: 50px 102px 69px 50px;
+}
+/*кнопочка */
+.prices__button {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 1.2px;
+	color: #242121;
+
+	border: 0px;
+	background-color: white;
+
+	margin-bottom: 0px;
+}
+
+/* БЛОК С КАРТОЙ И ФОРМОЙ */
+
+.form-map__maincontainer{
+	display: flex;
+}
+
+.form-map__left-container {
+	margin-left: 0px;
+}
+
+.form-map__title-box {
+	padding: 145px 292px 112px 0;
+}
+
+.form-map__formbox {
+	margin-left: 40px;
+}
+
+.form-map__form-input {
+	width: 569px;
+	height: 38px;
+	border: 0px;
+	border-bottom: 2px solid black;
+	margin-bottom: 32px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 3.70909px;
+	color: #B8B8B8;
+	text-transform: uppercase;
+}
+
+.form-map__form-textarea {
+	width: 569px;
+	height: 156px;
+	border: 0px;
+	border-bottom: 2px solid black;
+	margin-bottom: 32px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 3.70909px;
+	color: #B8B8B8;
+	text-transform: uppercase;
+}
+
+.form-map__form-button {
+	background-color: black;
+	width: 230px;
+	height: 45px;
+	margin-left: 93px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 13px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+}
+
+/* футер */
+
+.footer__contacts-block {
+	height: 452px;
+	background-color: #373A39;
+	padding-top: 110px;
+	text-align: center;
+}
+
+.logo__link {
+	margin-bottom: 25px;
+}
+
+.footer__contacts-social-list {
+	display: flex;
+	margin: 73px 374px 65px 374px;
+}
+
+.footer__contacts-link {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+
+	letter-spacing: 4px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer__contacts {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 32px;
+	text-align: center;
+	color: #A8A8A8;
+}
+
+.footer__up-arrow {
+	margin-top: 60px;
+}
+
+.footer__copyright {
+	background-color: #2A2C2B;
+	height: 100px;
+}
+
+.footer__copyright-text {
+	padding: 40px 657px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #CCCCCC;
+}
